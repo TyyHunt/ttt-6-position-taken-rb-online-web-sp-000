@@ -2,6 +2,6 @@
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " ",]
 index = gets.strip - 1
 def position_taken?(board, board[x])
-  if index != "   "
+  if board[x] != "   "
     return false
   end
